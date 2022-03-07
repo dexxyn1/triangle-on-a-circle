@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<GridPane alignment="center" hgap="10" prefHeight="700.0" prefWidth="700.0" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="Controller">
+   <children>
+      <BorderPane prefHeight="700.0" prefWidth="700.0">
+         <center>
+            <Pane fx:id="canvas" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </children>
+</GridPane>
